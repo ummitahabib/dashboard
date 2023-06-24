@@ -29,7 +29,7 @@ class WeatherRepository {
   String _getBackgroundImageFromCondition(String condition) {
     // Define the mapping of condition to background image
     final Map<String, String> conditionToImage = {
-      'Sunny': 'assets/images/sunny.jpg', // Replace with the actual image asset paths for each condition
+      'Sunny': 'assets/images/sunny.jpg',
       'Cloudy': 'assets/images/cloudy.jpg',
       'Partly cloudy': 'assets/images/partly_cloudy.jpg',
       'Rainy': 'assets/images/rainy.jpg',
